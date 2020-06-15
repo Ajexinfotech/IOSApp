@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.row {
+    float: left;
+}
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.col-1 {
+    float: left;
+    width: 8.33%;
+    padding-right: 7px;
+}
+.col-2 {
+    float: left;
+    width: 16.66%;
+    padding-right: 7px;
+}
+.col-3 {
+    float: left;
+    width: 25%;
+    padding-right: 7px;
+}
+.col-4 {
+    float: left;
+    width: 33.33%;
+    padding-right: 7px;
+}
+.col-5 {
+    float: left;
+    width: 41.66%;
+    padding-right: 7px;
+}
+.col-6 {
+    float: left;
+    width: 50%;
+    padding-right: 7px;
+}
+.col-7 {
+    float: left;
+    width: 58.33%;
+    padding-right: 7px;
+}
+.col-8 {
+    float: left;
+    width: 66.66%;
+    padding-right: 7px;
+}
+.col-9 {
+    float: left;
+    width: 75%;
+    padding-right: 7px;
+}
+.col-10 {
+    float: left;
+    width: 83.33%;
+    padding-right: 7px;
+}
+.col-11 {
+    float: left;
+    width: 91.66%;
+    padding-right: 7px;
+}
+.col-12 {
+    float: left;
+    width: 100%;
+    padding-right: 7px;
+}
+
+.wrapper {
+    background-color: #2b5252;
+    min-height: 100vh;
+}
+.menu {
+    background-color: #1b4646;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.services {
+    padding: 12px 0;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #2b5252;
+}
+.nav-item {
+    background-color: #1b4646;
+    padding: 20px 30px;
+    list-style-type: none;
+    display: flex;
+}
+.stick{
+    position: sticky;
+    top: 0;
+}
+.nav-item li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+.nav-item li a:hover {
+    color: #1b4646;
+    background-color: #fff;
+    border-radius: 10px;
+}
